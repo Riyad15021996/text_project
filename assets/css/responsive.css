@@ -1,0 +1,112 @@
+/*  Large devices (desktops, 992px and up) */
+
+@media (min-width: 992px) and (max-width: 1199.98px) {}
+
+
+/*  Medium devices (tablets, 768px and up) */
+
+@media (max-width: 991.98px) {
+    .select-area {
+        display: none;
+    }
+    .hero-area {
+        height: 100%;
+        padding-top: 120px;
+    }
+    .client-logo-wrapper img {
+        margin: 50px 5px;
+    }
+    .contact-wrapper {
+        padding: 40px 50px;
+    }
+    .copyright-list ul li {
+        margin-left: 20px;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 991.98px) {}
+
+
+/*  Small devices (landscape phones, 576px and up) */
+
+@media (min-width: 576px) and (max-width: 767.98px) {
+    .hero-icon-position {
+        display: none;
+    }
+    .client-logo-wrapper img {
+        margin: 30px 20px;
+    }
+    .single-discover {
+        padding: 20px 15px;
+    }
+    .single-service {
+        padding: 20px 15px;
+    }
+    .contact-wrapper {
+        padding: 40px 20px;
+    }
+    .copyright-list {
+        text-align: left;
+    }
+    .copyright-list ul li {
+        margin-left: 0;
+        margin-right: 20px;
+    }
+}
+
+
+/* Extra small devices (portrait phones, less than 576px) */
+
+@media (max-width: 575.98px) {
+    .btn-blue {
+        padding: 15px 20px;
+        font-size: 16px;
+    }
+    .hero-icon-position {
+        display: none;
+    }
+    .client-logo-wrapper img {
+        margin: 30px 20px;
+    }
+    .single-discover {
+        padding: 20px 15px;
+    }
+    .single-service {
+        padding: 20px 15px;
+    }
+    .contact-wrapper {
+        padding: 40px 20px;
+    }
+    .copyright-list {
+        text-align: left;
+    }
+    .copyright-list ul li {
+        margin-left: 0;
+        margin-right: 20px;
+    }
+    .copyright-area {
+        padding: 25px 0 55px;
+    }
+}
+
+@media (min-width: 425px) and (max-width: 575.98px) {}
+
+
+/* Extra small devices (portrait phones, less than 576px) */
+
+@media (min-width: 320px) and (max-width: 424.98px) {
+    .hero-content h2 {
+        font-size: 30px;
+    }
+    .btn-blue {
+        padding: 12px 15px;
+        font-size: 14px;
+    }
+    .client-logo-wrapper img {
+        margin: 20px 8px;
+    }
+    .copyright-list ul li {
+        margin-left: 0;
+        margin-right: 10px;
+    }
+}
